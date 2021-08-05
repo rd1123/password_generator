@@ -10,7 +10,7 @@ app.set('view engine', 'handlebars')
 app.use(express.urlencoded({ extended: true }))
 const port = 3000
 
-
+console.log('version => 1.0.0')
 // set route
 app.get('/', (req, res) => {
   res.render('index')
