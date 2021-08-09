@@ -13,6 +13,8 @@ const port = 3000
 console.log('version => 1.0.0')
 console.log('version => 2.0.0')
 console.log('version => 3.0.0')
+console.log('version => 4.0.0')
+
 // set route
 app.get('/', (req, res) => {
   res.render('index')
